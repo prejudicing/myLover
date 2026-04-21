@@ -12,6 +12,8 @@ dependencies = [
   "chromadb>=0.5.0",
   "pydantic>=2.7.0",
   "python-dotenv>=1.0.1",
+  "streamlit>=1.44.0",
+  "wecom-aibot-sdk>=1.0.6",
 ]
 
 [build-system]

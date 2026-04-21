@@ -110,7 +110,8 @@ def extract_candidate_memories(chat_export_path: str | Path) -> list[MemoryChunk
             continue
 
         memory_type = _infer_memory_type(content) or "fact"
-        signature = (memory_type, content)
+        speaker = "self" if bool(message.get("isSend")) else "lover"
+        signature = (speaker, memory_type, content)
         if signature in seen:
             continue
         seen.add(signature)
@@ -122,6 +123,7 @@ def extract_candidate_memories(chat_export_path: str | Path) -> list[MemoryChunk
                 source=path.name,
                 timestamp=message.get("formattedTime"),
                 memory_type=memory_type,
+                speaker=speaker,
             )
         )
 
@@ -158,7 +160,7 @@ def main() -> None:
     print(f"collection_count={store.count()}")
     print("sample_memories:")
     for memory in memories[:10]:
-        print(f"- [{memory.memory_type}] {memory.content}")
+        print(f"- [{memory.speaker}:{memory.memory_type}] {memory.content}")
 
 
 if __name__ == "__main__":

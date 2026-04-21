@@ -8,6 +8,7 @@ src/mylover/memory_store.py
 src/mylover/pipeline.py
 src/mylover/prompts.py
 src/mylover/schemas.py
+src/mylover/wecom_bot.py
 src/mylover.egg-info/PKG-INFO
 src/mylover.egg-info/SOURCES.txt
 src/mylover.egg-info/dependency_links.txt

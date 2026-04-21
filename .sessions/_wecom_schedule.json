@@ -1,0 +1,12 @@
+{
+  "date": "2026-04-21",
+  "slots": {
+    "morning": "09:59",
+    "afternoon": "15:37",
+    "evening": "20:25"
+  },
+  "sent": [
+    "afternoon",
+    "morning"
+  ]
+}

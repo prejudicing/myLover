@@ -15,6 +15,12 @@ class Settings:
     openai_model: str = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
     embedding_model: str = os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small")
     chroma_dir: str = os.getenv("MYLOVER_CHROMA_DIR", ".chroma")
+    session_dir: str = os.getenv("MYLOVER_SESSION_DIR", ".sessions")
+    wecom_bot_id: str = os.getenv("WECOM_BOT_ID", "")
+    wecom_bot_secret: str = os.getenv("WECOM_BOT_SECRET", "")
+    wecom_ws_url: str = os.getenv("WECOM_WS_URL", "wss://openws.work.weixin.qq.com")
+    wecom_allowed_user_id: str = os.getenv("WECOM_ALLOWED_USER_ID", "")
+    wecom_schedule_timezone: str = os.getenv("WECOM_SCHEDULE_TIMEZONE", "Asia/Shanghai")
     top_k: int = int(os.getenv("MYLOVER_TOP_K", "6"))
     memory_write_threshold: float = float(os.getenv("MYLOVER_MEMORY_WRITE_THRESHOLD", "0.65"))
 

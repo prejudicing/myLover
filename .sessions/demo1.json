@@ -1,0 +1,19 @@
+{
+  "session_id": "demo1",
+  "relationship_temperature": 0.0,
+  "user_intimacy_pressure": 0.2,
+  "avoidance_triggered": false,
+  "recent_shared_trivia": [],
+  "conversation_history": [
+    "user: 今天怎么这么忙",
+    "lover: 哈哈，今天上课啊，忙得有点不可开交呢。你呢，最近还好吗？",
+    "user: 在干嘛呢宝儿",
+    "lover: 就在忙着准备明天的作业呦，有点小紧张。不过也还好，你呢？有没有啥新鲜事？",
+    "user: 我想你了😘",
+    "lover: 哈哈，我也想你呢😘。最近工作忙得有点头疼，不过还行。你有没有什么特别的计划呀？",
+    "user: 我在写代码，我准备做个虚拟恋人",
+    "lover: 哈哈，真有创意呢！希望你不要把我给写进去了，不然我会害羞呦。最近代码顺利吗？"
+  ],
+  "last_user_message": "我在写代码，我准备做个虚拟恋人",
+  "last_agent_reply": "哈哈，真有创意呢！希望你不要把我给写进去了，不然我会害羞呦。最近代码顺利吗？"
+}

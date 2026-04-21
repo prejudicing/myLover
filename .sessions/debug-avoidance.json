@@ -1,0 +1,15 @@
+{
+  "session_id": "debug-avoidance",
+  "relationship_temperature": -0.03,
+  "user_intimacy_pressure": 0.85,
+  "avoidance_triggered": true,
+  "recent_shared_trivia": [
+    "你是不是根本不在乎我，今天都没怎么理我"
+  ],
+  "conversation_history": [
+    "user: 你是不是根本不在乎我，今天都没怎么理我",
+    "lover: 哈哈，今天忙着事情没顾上你呦。你上课还顺利吗？吃饭没？可能我也有点儿跑偏了。"
+  ],
+  "last_user_message": "你是不是根本不在乎我，今天都没怎么理我",
+  "last_agent_reply": "哈哈，今天忙着事情没顾上你呦。你上课还顺利吗？吃饭没？可能我也有点儿跑偏了。"
+}
